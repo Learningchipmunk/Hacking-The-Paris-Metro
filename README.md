@@ -6,17 +6,17 @@
 
 
 
-<h1><p style="text-align: center">Hacking the Paris Metro</p></h1>
+<center><h1>Hacking the Paris Metro</h1></center>
 
-<h6><p style="text-align: center">Big data analysis of real-time RATP data</p></h6>
+<h6><center>Data analysis of real-time RATP data</center></h6>
 
 
 
 ---
 
+
 ![jupyter notebook x python](https://img.shields.io/badge/jupyter%20notebook-python-orange)![DeepLearning x DNN](https://img.shields.io/badge/DeepLearning-DNN-blue)![ML x Regressions](https://img.shields.io/badge/MachineLearning-Regressions-ff69b4)
 
->  Data Analysis of real-time RATP data
 
 In early 2017, the RATP (Régie Autonome des Transports Parisiens, the state-owned public transport operator in Paris) made available to the public (through a web service) its real-time data of the public transportation system in the Paris metropolitan area. Our goal is to use **data science tools** in order to make sense of the vast amounts of raw data that are being produced and to **predict the lateness of trains (RER B)**.
 
