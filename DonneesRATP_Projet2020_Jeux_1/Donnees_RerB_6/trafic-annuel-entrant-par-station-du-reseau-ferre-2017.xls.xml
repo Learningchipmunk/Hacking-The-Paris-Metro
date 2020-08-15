@@ -1,0 +1,2449 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Utilisateur</Author>
+  <LastAuthor>Utilisateur</LastAuthor>
+  <Created>2019-04-03T12:22:20Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9375</WindowHeight>
+  <WindowWidth>9705</WindowWidth>
+  <WindowTopX>270</WindowTopX>
+  <WindowTopY>615</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="256" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Row ss:Height="15.75" ss:StyleID="s62">
+    <Cell><Data ss:Type="String">Rang</Data></Cell>
+    <Cell><Data ss:Type="String">Réseau</Data></Cell>
+    <Cell><Data ss:Type="String">Station</Data></Cell>
+    <Cell><Data ss:Type="String">Trafic</Data></Cell>
+    <Cell><Data ss:Type="String">Correspondance_1</Data></Cell>
+    <Cell><Data ss:Type="String">Correspondance_2</Data></Cell>
+    <Cell><Data ss:Type="String">Correspondance_3</Data></Cell>
+    <Cell><Data ss:Type="String">Correspondance_4</Data></Cell>
+    <Cell><Data ss:Type="String">Correspondance_5</Data></Cell>
+    <Cell><Data ss:Type="String">Ville</Data></Cell>
+    <Cell><Data ss:Type="String">Arrondissement pour Paris</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GARE DU NORD</Data></Cell>
+    <Cell><Data ss:Type="Number">50860744</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">OBERKAMPF</Data></Cell>
+    <Cell><Data ss:Type="Number">4402589</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">DAUMESNIL</Data></Cell>
+    <Cell><Data ss:Type="Number">5313490</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">COUR SAINT-EMILION</Data></Cell>
+    <Cell><Data ss:Type="Number">6022116</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">JULES JOFFRIN</Data></Cell>
+    <Cell><Data ss:Type="Number">4416975</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">AUBER</Data></Cell>
+    <Cell><Data ss:Type="Number">5923269</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHATELET</Data></Cell>
+    <Cell><Data ss:Type="Number">12829472</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">STALINGRAD</Data></Cell>
+    <Cell><Data ss:Type="Number">7226584</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MADELEINE</Data></Cell>
+    <Cell><Data ss:Type="Number">7089433</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BASTILLE</Data></Cell>
+    <Cell><Data ss:Type="Number">13239442</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GAMBETTA</Data></Cell>
+    <Cell><Data ss:Type="Number">7052652</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">3bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BIR-HAKEIM</Data></Cell>
+    <Cell><Data ss:Type="Number">8172283</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LES HALLES</Data></Cell>
+    <Cell><Data ss:Type="Number">16107112</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ANVERS</Data></Cell>
+    <Cell><Data ss:Type="Number">6032609</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">176</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PLACE DES FETES</Data></Cell>
+    <Cell><Data ss:Type="Number">3083242</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">182</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">NOTRE-DAME-DE-LORETTE</Data></Cell>
+    <Cell><Data ss:Type="Number">2989683</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">212</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RUE DES BOULETS</Data></Cell>
+    <Cell><Data ss:Type="Number">2564140</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MALESHERBES</Data></Cell>
+    <Cell><Data ss:Type="Number">2633146</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">COURCELLES</Data></Cell>
+    <Cell><Data ss:Type="Number">2626896</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">185</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ARGENTINE</Data></Cell>
+    <Cell><Data ss:Type="Number">2950929</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">211</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">TUILERIES</Data></Cell>
+    <Cell><Data ss:Type="Number">2565447</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">178</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GAITE</Data></Cell>
+    <Cell><Data ss:Type="Number">3035526</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">123</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ARTS ET METIERS</Data></Cell>
+    <Cell><Data ss:Type="Number">4026218</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">148</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">DUROC</Data></Cell>
+    <Cell><Data ss:Type="Number">3584770</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE BAGNOLET</Data></Cell>
+    <Cell><Data ss:Type="Number">4293544</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">174</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">QUAI DE LA GARE</Data></Cell>
+    <Cell><Data ss:Type="Number">3114195</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">151</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">POISSONNIERE</Data></Cell>
+    <Cell><Data ss:Type="Number">3529368</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LES GOBELINS</Data></Cell>
+    <Cell><Data ss:Type="Number">3532761</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">153</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">JOURDAIN</Data></Cell>
+    <Cell><Data ss:Type="Number">3512790</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">175</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SIMPLON</Data></Cell>
+    <Cell><Data ss:Type="Number">3083837</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">156</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BOURSE</Data></Cell>
+    <Cell><Data ss:Type="Number">3439709</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">271</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-SEBASTIEN-FROISSART</Data></Cell>
+    <Cell><Data ss:Type="Number">1661453</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">291</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLEE NATIONALE</Data></Cell>
+    <Cell><Data ss:Type="Number">1030686</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">272</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CARDINAL LEMOINE</Data></Cell>
+    <Cell><Data ss:Type="Number">1659755</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">EGLISE D'AUTEUIL</Data></Cell>
+    <Cell><Data ss:Type="Number">177017</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">275</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SULLY-MORLAND</Data></Cell>
+    <Cell><Data ss:Type="Number">1580307</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">GARE DU NORD-RER</Data></Cell>
+    <Cell><Data ss:Type="Number">47465765</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">293</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BOTZARIS</Data></Cell>
+    <Cell><Data ss:Type="Number">964240</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MONCEAU</Data></Cell>
+    <Cell><Data ss:Type="Number">1698260</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">280</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RENNES</Data></Cell>
+    <Cell><Data ss:Type="Number">1489805</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">239</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MAUBERT-MUTUALITE</Data></Cell>
+    <Cell><Data ss:Type="Number">2204329</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">254</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">QUATRE-SEPTEMBRE</Data></Cell>
+    <Cell><Data ss:Type="Number">1981596</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">228</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE D'ITALIE</Data></Cell>
+    <Cell><Data ss:Type="Number">2347785</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">230</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">EDGAR QUINET</Data></Cell>
+    <Cell><Data ss:Type="Number">2321264</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">260</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">FELIX FAURE</Data></Cell>
+    <Cell><Data ss:Type="Number">1829591</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">249</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SOLFERINO</Data></Cell>
+    <Cell><Data ss:Type="Number">2058280</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">258</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MABILLON</Data></Cell>
+    <Cell><Data ss:Type="Number">1853355</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">233</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BEL AIR</Data></Cell>
+    <Cell><Data ss:Type="Number">2298213</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-LAZARE</Data></Cell>
+    <Cell><Data ss:Type="Number">47137968</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">REPUBLIQUE</Data></Cell>
+    <Cell><Data ss:Type="Number">18187603</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PLACE D'ITALIE</Data></Cell>
+    <Cell><Data ss:Type="Number">11525905</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GARE DE LYON</Data></Cell>
+    <Cell><Data ss:Type="Number">37302438</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GARE DE L'EST</Data></Cell>
+    <Cell><Data ss:Type="Number">21299902</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BELLEVILLE</Data></Cell>
+    <Cell><Data ss:Type="Number">11595446</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">223</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LOUIS BLANC</Data></Cell>
+    <Cell><Data ss:Type="Number">2393010</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">195</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE LA CHAPELLE</Data></Cell>
+    <Cell><Data ss:Type="Number">2839635</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">196</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">JAVEL-ANDRE CITROEN</Data></Cell>
+    <Cell><Data ss:Type="Number">2822682</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">169</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">FAIDHERBE-CHALIGNY</Data></Cell>
+    <Cell><Data ss:Type="Number">3150625</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">217</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-JACQUES</Data></Cell>
+    <Cell><Data ss:Type="Number">2484204</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">220</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LE PELETIER</Data></Cell>
+    <Cell><Data ss:Type="Number">2413692</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">197</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CORVISART</Data></Cell>
+    <Cell><Data ss:Type="Number">2816073</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">224</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RANELAGH</Data></Cell>
+    <Cell><Data ss:Type="Number">2387545</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BONNE NOUVELLE</Data></Cell>
+    <Cell><Data ss:Type="Number">4839769</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PERE LACHAISE</Data></Cell>
+    <Cell><Data ss:Type="Number">4837320</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ECOLE MILITAIRE</Data></Cell>
+    <Cell><Data ss:Type="Number">4285851</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHATEAU D'EAU</Data></Cell>
+    <Cell><Data ss:Type="Number">3929898</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GUY MOQUET</Data></Cell>
+    <Cell><Data ss:Type="Number">4646625</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RAMBUTEAU</Data></Cell>
+    <Cell><Data ss:Type="Number">4047914</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GLACIERE</Data></Cell>
+    <Cell><Data ss:Type="Number">4315500</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BLANCHE</Data></Cell>
+    <Cell><Data ss:Type="Number">3997296</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ALESIA</Data></Cell>
+    <Cell><Data ss:Type="Number">5072500</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">OURCQ</Data></Cell>
+    <Cell><Data ss:Type="Number">4037796</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ALEXANDRE DUMAS</Data></Cell>
+    <Cell><Data ss:Type="Number">3676620</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">132</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-PLACIDE</Data></Cell>
+    <Cell><Data ss:Type="Number">3905148</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">133</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VICTOR HUGO</Data></Cell>
+    <Cell><Data ss:Type="Number">3877660</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">159</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">FUNICULAIRE</Data></Cell>
+    <Cell><Data ss:Type="Number">3340170</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">152</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHEVALERET</Data></Cell>
+    <Cell><Data ss:Type="Number">3522575</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">167</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CAMBRONNE</Data></Cell>
+    <Cell><Data ss:Type="Number">3191686</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">158</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">TOLBIAC</Data></Cell>
+    <Cell><Data ss:Type="Number">3364093</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">CHARLES DE GAULLE-ETOILE-RER</Data></Cell>
+    <Cell><Data ss:Type="Number">8640591</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">302</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PELLEPORT</Data></Cell>
+    <Cell><Data ss:Type="Number">361581</Data></Cell>
+    <Cell><Data ss:Type="String">3bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">PORT ROYAL</Data></Cell>
+    <Cell><Data ss:Type="Number">3514722</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">LUXEMBOURG</Data></Cell>
+    <Cell><Data ss:Type="Number">5805371</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">NATION</Data></Cell>
+    <Cell><Data ss:Type="Number">8718463</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SEVRES-BABYLONE</Data></Cell>
+    <Cell><Data ss:Type="Number">5321593</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RICHELIEU-DROUOT</Data></Cell>
+    <Cell><Data ss:Type="Number">5307462</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GRANDS BOULEVARDS</Data></Cell>
+    <Cell><Data ss:Type="Number">7141016</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">INVALIDES</Data></Cell>
+    <Cell><Data ss:Type="Number">6537098</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BERCY</Data></Cell>
+    <Cell><Data ss:Type="Number">5909077</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-MICHEL</Data></Cell>
+    <Cell><Data ss:Type="Number">7469900</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CONVENTION</Data></Cell>
+    <Cell><Data ss:Type="Number">5460496</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">243</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MICHEL-ANGE-AUTEUIL</Data></Cell>
+    <Cell><Data ss:Type="Number">2162365</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">244</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">NOTRE-DAME-DES-CHAMPS</Data></Cell>
+    <Cell><Data ss:Type="Number">2150136</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">261</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PHILIPPE AUGUSTE</Data></Cell>
+    <Cell><Data ss:Type="Number">1817987</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">295</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-FARGEAU</Data></Cell>
+    <Cell><Data ss:Type="Number">715468</Data></Cell>
+    <Cell><Data ss:Type="String">3bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MAISON BLANCHE</Data></Cell>
+    <Cell><Data ss:Type="Number">1961665</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RICHARD LENOIR</Data></Cell>
+    <Cell><Data ss:Type="Number">2006551</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">227</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RUE DU BAC</Data></Cell>
+    <Cell><Data ss:Type="Number">2370918</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">299</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BOLIVAR</Data></Cell>
+    <Cell><Data ss:Type="Number">552896</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">247</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">JASMIN</Data></Cell>
+    <Cell><Data ss:Type="Number">2076285</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">288</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLE</Data></Cell>
+    <Cell><Data ss:Type="Number">1270319</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">DENFERT-ROCHEREAU</Data></Cell>
+    <Cell><Data ss:Type="Number">4536263</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">JUSSIEU</Data></Cell>
+    <Cell><Data ss:Type="Number">4476394</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-GERMAIN DES PRES</Data></Cell>
+    <Cell><Data ss:Type="Number">4500669</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE MONTREUIL</Data></Cell>
+    <Cell><Data ss:Type="Number">4731789</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE CLICHY</Data></Cell>
+    <Cell><Data ss:Type="Number">4305225</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LAUMIERE</Data></Cell>
+    <Cell><Data ss:Type="Number">4445721</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">126</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">DUPLEIX</Data></Cell>
+    <Cell><Data ss:Type="Number">3978871</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PEREIRE</Data></Cell>
+    <Cell><Data ss:Type="Number">4691021</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">181</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DAUPHINE</Data></Cell>
+    <Cell><Data ss:Type="Number">2991166</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">163</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ETIENNE MARCEL</Data></Cell>
+    <Cell><Data ss:Type="Number">3297216</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">234</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VOLONTAIRES</Data></Cell>
+    <Cell><Data ss:Type="Number">2294691</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">226</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">TELEGRAPHE</Data></Cell>
+    <Cell><Data ss:Type="Number">2381268</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DOREE</Data></Cell>
+    <Cell><Data ss:Type="Number">2715367</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">162</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BOUCICAUT</Data></Cell>
+    <Cell><Data ss:Type="Number">3318843</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">221</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RIQUET</Data></Cell>
+    <Cell><Data ss:Type="Number">2401771</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CONCORDE</Data></Cell>
+    <Cell><Data ss:Type="Number">6312926</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">HAVRE-CAUMARTIN</Data></Cell>
+    <Cell><Data ss:Type="Number">7492542</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VILLIERS</Data></Cell>
+    <Cell><Data ss:Type="Number">6095197</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE CLIGNANCOURT</Data></Cell>
+    <Cell><Data ss:Type="Number">8256129</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE D'ORLEANS</Data></Cell>
+    <Cell><Data ss:Type="Number">6702371</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE MAILLOT</Data></Cell>
+    <Cell><Data ss:Type="Number">8774568</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LA CHAPELLE</Data></Cell>
+    <Cell><Data ss:Type="Number">6841948</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PYRAMIDES</Data></Cell>
+    <Cell><Data ss:Type="Number">5281930</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PASTEUR</Data></Cell>
+    <Cell><Data ss:Type="Number">5030023</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE VANVES</Data></Cell>
+    <Cell><Data ss:Type="Number">4768377</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VOLTAIRE</Data></Cell>
+    <Cell><Data ss:Type="Number">4963540</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">129</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DES LILAS</Data></Cell>
+    <Cell><Data ss:Type="Number">3931994</Data></Cell>
+    <Cell><Data ss:Type="String">3bis</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">138</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE SAINT-OUEN</Data></Cell>
+    <Cell><Data ss:Type="Number">3736385</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LEDRU-ROLLIN</Data></Cell>
+    <Cell><Data ss:Type="Number">3856297</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">139</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MARX DORMOY</Data></Cell>
+    <Cell><Data ss:Type="Number">3717402</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">147</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VAUGIRARD</Data></Cell>
+    <Cell><Data ss:Type="Number">3597913</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">144</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">TERNES</Data></Cell>
+    <Cell><Data ss:Type="Number">3613687</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">145</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SENTIER</Data></Cell>
+    <Cell><Data ss:Type="Number">3610996</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">128</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PASSY</Data></Cell>
+    <Cell><Data ss:Type="Number">3942219</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">262</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">TRINITE-D'ESTIENNE D'ORVES</Data></Cell>
+    <Cell><Data ss:Type="Number">1802492</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">268</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-FRANCOIS-XAVIER</Data></Cell>
+    <Cell><Data ss:Type="Number">1726254</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">267</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">FILLES DU CALVAIRE</Data></Cell>
+    <Cell><Data ss:Type="Number">1730620</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">238</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE CHARENTON</Data></Cell>
+    <Cell><Data ss:Type="Number">2222987</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">274</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MOUTON-DUVERNET</Data></Cell>
+    <Cell><Data ss:Type="Number">1589981</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">264</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHATEAU-LANDON</Data></Cell>
+    <Cell><Data ss:Type="Number">1756811</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">273</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PONT MARIE</Data></Cell>
+    <Cell><Data ss:Type="Number">1620243</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">245</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BOISSIERE</Data></Cell>
+    <Cell><Data ss:Type="Number">2141539</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">266</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LIEGE</Data></Cell>
+    <Cell><Data ss:Type="Number">1738577</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PRE-SAINT-GERVAIS</Data></Cell>
+    <Cell><Data ss:Type="Number">367131</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">281</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">AVENUE EMILE ZOLA</Data></Cell>
+    <Cell><Data ss:Type="Number">1471634</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTES-CHAUMONT</Data></Cell>
+    <Cell><Data ss:Type="Number">542357</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">297</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE D'AUTEUIL</Data></Cell>
+    <Cell><Data ss:Type="Number">651903</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">GARE DE LYON-RER</Data></Cell>
+    <Cell><Data ss:Type="Number">39505911</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">283</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHEMIN VERT</Data></Cell>
+    <Cell><Data ss:Type="Number">1415141</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">282</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VARENNE</Data></Cell>
+    <Cell><Data ss:Type="Number">1434206</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">290</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">KLEBER</Data></Cell>
+    <Cell><Data ss:Type="Number">1239886</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">284</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PICPUS</Data></Cell>
+    <Cell><Data ss:Type="Number">1352984</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">276</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SEGUR</Data></Cell>
+    <Cell><Data ss:Type="Number">1576059</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">STRASBOURG-SAINT-DENIS</Data></Cell>
+    <Cell><Data ss:Type="Number">10601066</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BARBES-ROCHECHOUART</Data></Cell>
+    <Cell><Data ss:Type="Number">11219335</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">HOTEL DE VILLE</Data></Cell>
+    <Cell><Data ss:Type="Number">11777638</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BIBLIOTHEQUE</Data></Cell>
+    <Cell><Data ss:Type="Number">18129727</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MONTPARNASSE-BIENVENUE</Data></Cell>
+    <Cell><Data ss:Type="Number">28953720</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHARLES DE GAULLE-ETOILE</Data></Cell>
+    <Cell><Data ss:Type="Number">8530182</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">JAURES</Data></Cell>
+    <Cell><Data ss:Type="Number">6226202</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">OPERA</Data></Cell>
+    <Cell><Data ss:Type="Number">11022100</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MARCADET-POISSONNIERS</Data></Cell>
+    <Cell><Data ss:Type="Number">7973129</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PLACE CLICHY</Data></Cell>
+    <Cell><Data ss:Type="Number">9019721</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">TROCADERO</Data></Cell>
+    <Cell><Data ss:Type="Number">8879431</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">REAUMUR-SEBASTOPOL</Data></Cell>
+    <Cell><Data ss:Type="Number">4523360</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">REUILLY-DIDEROT</Data></Cell>
+    <Cell><Data ss:Type="Number">5845034</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MIROMESNIL</Data></Cell>
+    <Cell><Data ss:Type="Number">6190720</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHARLES MICHELS</Data></Cell>
+    <Cell><Data ss:Type="Number">4886832</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">COLONEL FABIEN</Data></Cell>
+    <Cell><Data ss:Type="Number">4752228</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MENILMONTANT</Data></Cell>
+    <Cell><Data ss:Type="Number">4331355</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">117</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ALMA-MARCEAU</Data></Cell>
+    <Cell><Data ss:Type="Number">4247823</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GEORGE V</Data></Cell>
+    <Cell><Data ss:Type="Number">6184000</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">FRANKLIN D. ROOSEVELT</Data></Cell>
+    <Cell><Data ss:Type="Number">2770958</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">225</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SEVRES-LECOURBE</Data></Cell>
+    <Cell><Data ss:Type="Number">2382490</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">259</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-SULPICE</Data></Cell>
+    <Cell><Data ss:Type="Number">1830503</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">237</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-MARCEL</Data></Cell>
+    <Cell><Data ss:Type="Number">2230692</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">DUGOMMIER</Data></Cell>
+    <Cell><Data ss:Type="Number">2764845</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">241</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ABBESSES</Data></Cell>
+    <Cell><Data ss:Type="Number">2188257</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">285</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MIRABEAU</Data></Cell>
+    <Cell><Data ss:Type="Number">1346258</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">216</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">WAGRAM</Data></Cell>
+    <Cell><Data ss:Type="Number">2530119</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">218</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">IENA</Data></Cell>
+    <Cell><Data ss:Type="Number">2445767</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CENSIER-DAUBENTON</Data></Cell>
+    <Cell><Data ss:Type="Number">3496111</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">173</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RUE DE LA POMPE</Data></Cell>
+    <Cell><Data ss:Type="Number">3121397</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">193</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-AUGUSTIN</Data></Cell>
+    <Cell><Data ss:Type="Number">2840829</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LA MUETTE</Data></Cell>
+    <Cell><Data ss:Type="Number">4016508</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">172</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PYRENEES</Data></Cell>
+    <Cell><Data ss:Type="Number">3134664</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">183</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">COURONNES</Data></Cell>
+    <Cell><Data ss:Type="Number">2977750</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">157</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BROCHANT</Data></Cell>
+    <Cell><Data ss:Type="Number">3417248</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">CHATELET-LES HALLES-RER</Data></Cell>
+    <Cell><Data ss:Type="Number">30156193</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">289</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">QUAI DE LA RAPEE</Data></Cell>
+    <Cell><Data ss:Type="Number">1242700</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">DENFERT-ROCHEREAU-RER</Data></Cell>
+    <Cell><Data ss:Type="Number">5391797</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">296</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHARDON-LAGACHE</Data></Cell>
+    <Cell><Data ss:Type="Number">660183</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">286</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CAMPO-FORMIO</Data></Cell>
+    <Cell><Data ss:Type="Number">1297695</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">292</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VANEAU</Data></Cell>
+    <Cell><Data ss:Type="Number">997620</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-MICHEL-NOTRE-DAME</Data></Cell>
+    <Cell><Data ss:Type="Number">7051095</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LA MOTTE-PICQUET-GRENELLE</Data></Cell>
+    <Cell><Data ss:Type="Number">7971520</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GARE D'AUSTERLITZ</Data></Cell>
+    <Cell><Data ss:Type="Number">9674901</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PALAIS-ROYAL</Data></Cell>
+    <Cell><Data ss:Type="Number">10024410</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHAUSSEE D'ANTIN-LA FAYETTE</Data></Cell>
+    <Cell><Data ss:Type="Number">7292728</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE VERSAILLES</Data></Cell>
+    <Cell><Data ss:Type="Number">5827374</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE VINCENNES</Data></Cell>
+    <Cell><Data ss:Type="Number">7246340</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">OLYMPIADES</Data></Cell>
+    <Cell><Data ss:Type="Number">7240711</Data></Cell>
+    <Cell><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-PAUL</Data></Cell>
+    <Cell><Data ss:Type="Number">6293063</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CRIMEE</Data></Cell>
+    <Cell><Data ss:Type="Number">5999504</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE LA VILLETTE</Data></Cell>
+    <Cell><Data ss:Type="Number">3909021</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE CHAMPERRET</Data></Cell>
+    <Cell><Data ss:Type="Number">3450481</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PLACE MONGE</Data></Cell>
+    <Cell><Data ss:Type="Number">3001848</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">166</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PARMENTIER</Data></Cell>
+    <Cell><Data ss:Type="Number">3219039</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">179</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">GONCOURT</Data></Cell>
+    <Cell><Data ss:Type="Number">3003253</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">165</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PERNETY</Data></Cell>
+    <Cell><Data ss:Type="Number">3240020</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">161</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CADET</Data></Cell>
+    <Cell><Data ss:Type="Number">3322334</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">232</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CLUNY LA SORBONNE</Data></Cell>
+    <Cell><Data ss:Type="Number">2306916</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">JACQUES BONSERGENT</Data></Cell>
+    <Cell><Data ss:Type="Number">2599072</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHATEAU ROUGE</Data></Cell>
+    <Cell><Data ss:Type="Number">2623832</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">235</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BREGUET-SABIN</Data></Cell>
+    <Cell><Data ss:Type="Number">2273253</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">NATIONALE</Data></Cell>
+    <Cell><Data ss:Type="Number">2589861</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">219</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LOURMEL</Data></Cell>
+    <Cell><Data ss:Type="Number">2420654</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">VAVIN</Data></Cell>
+    <Cell><Data ss:Type="Number">2572831</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">215</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LOUVRE</Data></Cell>
+    <Cell><Data ss:Type="Number">2558502</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">186</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-PHILIPPE-DU-ROULE</Data></Cell>
+    <Cell><Data ss:Type="Number">2937242</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">184</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LAMARCK-CAULAINCOURT</Data></Cell>
+    <Cell><Data ss:Type="Number">2968479</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">192</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE CHOISY</Data></Cell>
+    <Cell><Data ss:Type="Number">2853091</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">191</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CORENTIN CARIOU</Data></Cell>
+    <Cell><Data ss:Type="Number">2866103</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">188</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-AMBROISE</Data></Cell>
+    <Cell><Data ss:Type="Number">2891169</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">194</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LA FOURCHE</Data></Cell>
+    <Cell><Data ss:Type="Number">2839680</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">199</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MARAICHERS</Data></Cell>
+    <Cell><Data ss:Type="Number">2778097</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">198</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-MAUR</Data></Cell>
+    <Cell><Data ss:Type="Number">2783668</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">187</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">COMMERCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2933922</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">189</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ROME</Data></Cell>
+    <Cell><Data ss:Type="Number">2882323</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHAMPS-ELYSEES-CLEMENCEAU</Data></Cell>
+    <Cell><Data ss:Type="Number">4139250</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PIGALLE</Data></Cell>
+    <Cell><Data ss:Type="Number">5786015</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">ODEON</Data></Cell>
+    <Cell><Data ss:Type="Number">5771522</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE SAINT-CLOUD</Data></Cell>
+    <Cell><Data ss:Type="Number">5196965</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE DE PANTIN</Data></Cell>
+    <Cell><Data ss:Type="Number">5226446</Data></Cell>
+    <Cell><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PLAISANCE</Data></Cell>
+    <Cell><Data ss:Type="Number">4952901</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CHARONNE</Data></Cell>
+    <Cell><Data ss:Type="Number">4051696</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BALARD</Data></Cell>
+    <Cell><Data ss:Type="Number">5353471</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">242</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MICHEL-ANGE-MOLITOR</Data></Cell>
+    <Cell><Data ss:Type="Number">2170808</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">265</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">RASPAIL</Data></Cell>
+    <Cell><Data ss:Type="Number">1743588</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">246</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">LA TOUR-MAUBOURG</Data></Cell>
+    <Cell><Data ss:Type="Number">2136370</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">252</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MICHEL BIZOT</Data></Cell>
+    <Cell><Data ss:Type="Number">1994388</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">257</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PORTE D'IVRY</Data></Cell>
+    <Cell><Data ss:Type="Number">1932132</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">251</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">BUZENVAL</Data></Cell>
+    <Cell><Data ss:Type="Number">1994753</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">248</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">EXELMANS</Data></Cell>
+    <Cell><Data ss:Type="Number">2072581</Data></Cell>
+    <Cell><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">256</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">AVRON</Data></Cell>
+    <Cell><Data ss:Type="Number">1960775</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">CITE</Data></Cell>
+    <Cell><Data ss:Type="Number">2191363</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">CITE UNIVERSITAIRE</Data></Cell>
+    <Cell><Data ss:Type="Number">7365818</Data></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">287</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT-GEORGES</Data></Cell>
+    <Cell><Data ss:Type="Number">1274798</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">269</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">MONTGALLET</Data></Cell>
+    <Cell><Data ss:Type="Number">1710400</Data></Cell>
+    <Cell><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">294</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">FALGUIERE</Data></Cell>
+    <Cell><Data ss:Type="Number">889118</Data></Cell>
+    <Cell><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">279</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">PONT NEUF</Data></Cell>
+    <Cell><Data ss:Type="Number">1545258</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">298</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">DANUBE</Data></Cell>
+    <Cell><Data ss:Type="Number">595883</Data></Cell>
+    <Cell><Data ss:Type="String">7bis</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">277</Data></Cell>
+    <Cell><Data ss:Type="String">Métro</Data></Cell>
+    <Cell><Data ss:Type="String">EUROPE</Data></Cell>
+    <Cell><Data ss:Type="Number">1550969</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">RER</Data></Cell>
+    <Cell><Data ss:Type="String">NATION-RER</Data></Cell>
+    <Cell><Data ss:Type="Number">4212309</Data></Cell>
+    <Cell><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Paris</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
