@@ -57,7 +57,7 @@ Finally, we compared our predictions to RATP's own live predictions of the **RER
 
 ## Git lfs installation
 
-We use Git Large File Storage (lfs) to version large files, in order to read the datas in the `.csv` files you must install it: 
+We use Git Large File Storage (lfs) to version large files. In consequence, in order to read the datas in the `.csv` files you must install it: 
 
 ```bash
 git lfs install
