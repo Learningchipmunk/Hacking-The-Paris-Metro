@@ -53,6 +53,17 @@ Finally, we compared our predictions to RATP's own live predictions of the **RER
 ## Prerequisites
 
 * Miniconda or Anaconda
+* git lfs 
+
+## Git lfs installation
+
+We use Git Large File Storage (lfs) to version large files, in order to read the datas in the `.csv` files you must install it: 
+
+```bash
+git lfs install
+```
+
+> For more details please see [here](https://git-lfs.github.com/).
 
 ## Conda Environment Setup
 
